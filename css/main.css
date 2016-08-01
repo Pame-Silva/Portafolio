@@ -1,0 +1,47 @@
+#bg-header {
+  background-color: #1A1A1A; }
+  #bg-header ul {
+    list-style-type: none;
+    display: inline-block; }
+    #bg-header ul li {
+      display: inline-block; }
+      #bg-header ul li a {
+        text-decoration: none; }
+
+#inicio {
+  background-color: blue; }
+
+#sobre-mi {
+  background-color: red; }
+
+#habilidades {
+  background-color: green; }
+
+#mis-proyectos {
+  background-color: yellow; }
+
+#contacto {
+  background-color: #1A1A1A; }
+
+body {
+  margin: 0; }
+
+.home .fondo {
+  background-size: cover; }
+  .home .fondo h1 {
+    margin: 40vh auto;
+    font-family: Ubuntu;
+    padding: 30px 0;
+    /*background-color: rgba(255,255,255,0.8);*/ }
+.home .fondo-fixed {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; }
+.home .fondo-1 {
+  background-image: url(../images/asd.jpg); }
+.home .modulo-alto {
+  padding: 1em;
+  min-height: 100vh;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,10 @@
+.separator {
+  border: 1px solid orange;
+  width: 100px;
+  text-align: left; }
+
 #bg-header {
+  padding: 20px;
   background-color: #1A1A1A; }
   #bg-header ul {
     list-style-type: none;
@@ -6,13 +12,20 @@
     #bg-header ul li {
       display: inline-block; }
       #bg-header ul li a {
+        background-color: gray;
+        color: white;
+        margin: 2px;
+        padding: 14px;
+        border-radius: 8px;
         text-decoration: none; }
+        #bg-header ul li a:hover {
+          font-size: 16px; }
 
-#inicio {
-  background-color: blue; }
+.home h1 {
+  color: white; }
 
 #sobre-mi {
-  background-color: red; }
+  background-color: #1A1A1A; }
 
 #habilidades {
   background-color: green; }
@@ -32,7 +45,7 @@ body {
     margin: 40vh auto;
     font-family: Ubuntu;
     padding: 30px 0;
-    /*background-color: rgba(255,255,255,0.8);*/ }
+    /*background-color: rgba(255,255,255,0.8)*/ }
 .home .fondo-fixed {
   background-attachment: fixed;
   background-repeat: no-repeat;

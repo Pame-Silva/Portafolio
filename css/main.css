@@ -75,11 +75,11 @@ body {
     color: white;
     font-family: Slabo; }
 
-#habilidades {
+#conocimientos {
   padding: 50px; }
-  #habilidades h1 {
+  #conocimientos h1 {
     font-family: Slabo; }
-  #habilidades img {
+  #conocimientos img {
     display: inline-block;
     width: 90px;
     height: 80px;
@@ -88,6 +88,12 @@ body {
 
 #mis-proyectos {
   background-color: #26a69a; }
+  #mis-proyectos img {
+    display: inline-block;
+    width: 255px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 20px; }
 
 #contacto {
   background-color: #1A1A1A; }
@@ -97,11 +103,10 @@ body {
     text-align: center; }
   #contacto img {
     display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 50%;
     border-radius: 50%;
-    width: 100px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 200px; }
+    background-size: 100% auto; }
     #contacto img:hover {
       opacity: 0.5; }
   #contacto #derecho {

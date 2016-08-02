@@ -102,7 +102,7 @@ body{
 }
 
 
-#habilidades {
+#conocimientos {
 	padding: 50px;
 	h1 {
 		font-family: Slabo;
@@ -118,6 +118,13 @@ body{
 
 #mis-proyectos {
 	background-color: #26a69a;
+	img {
+		display: inline-block;
+		width: 255px;
+		height: 200px;
+		margin-left: 100px;
+		margin-top: 20px;
+	}
 }
 
 #contacto {
@@ -129,11 +136,11 @@ body{
 	}
 	img {
 		display: inline-block;
-		border-radius: 50%;
-		width: 100px;
-		height: 200px;
-		margin-top: 10px;
-		margin-left: 200px;
+		
+		background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
 		&:hover {
 			opacity: 0.5;
 		}

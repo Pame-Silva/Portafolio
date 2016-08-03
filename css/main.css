@@ -1,3 +1,26 @@
+#bg-header {
+  padding: 20px;
+  background-color: #1A1A1A; }
+  #bg-header .logo img {
+    width: 58px;
+    height: 58px; }
+  #bg-header ul {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 10px; }
+    #bg-header ul li {
+      display: inline-block; }
+      #bg-header ul li a {
+        font-family: Indie Flower;
+        font-size: 22px;
+        color: white;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 8px;
+        text-decoration: none; }
+        #bg-header ul li a:hover {
+          background-color: #004d40; }
+
 body {
   margin: 0; }
 
@@ -26,33 +49,12 @@ body {
   width: 100px;
   text-align: left; }
 
-#bg-header {
-  padding: 20px;
-  background-color: #1A1A1A; }
-  #bg-header .logo img {
-    width: 55px;
-    height: 55px; }
-  #bg-header ul {
-    list-style-type: none;
-    display: inline-block;
-    margin-top: 10px; }
-    #bg-header ul li {
-      display: inline-block; }
-      #bg-header ul li a {
-        font-family: Indie Flower;
-        color: white;
-        margin: 10px;
-        padding: 10px;
-        border-radius: 8px;
-        text-decoration: none; }
-        #bg-header ul li a:hover {
-          background-color: #004d40; }
-
 #sobre-mi {
   background-color: #0277bd; }
   #sobre-mi h1 {
     color: white;
-    font-family: Lobster; }
+    font-family: Lobster;
+    font-size: 60px; }
   #sobre-mi h3 {
     color: white;
     font-family: Indie Flower; }
@@ -98,13 +100,14 @@ body {
 #conocimientos {
   padding: 50px; }
   #conocimientos h1 {
-    font-family: Lobster; }
+    font-family: Lobster;
+    font-size: 60px; }
   #conocimientos img {
     display: inline-block;
-    width: 90px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     margin-left: 100px;
-    margin-top: 20px; }
+    margin-top: 40px; }
     #conocimientos img:hover {
       -webkit-transform: rotate(50deg);
       -moz-transform: rotate(50deg);
@@ -114,12 +117,14 @@ body {
   background-color: #26a69a;
   padding: 60px; }
   #mis-proyectos h1 {
-    font-family: Lobster; }
+    font-family: Lobster;
+    font-size: 60px; }
   #mis-proyectos img {
     display: inline-block;
-    width: 255px;
+    width: 300px;
     height: 200px;
-    margin-left: 100px;
+    margin-left: 70px;
+    padding-right: 40px;
     margin-top: 20px; }
     #mis-proyectos img:hover {
       -webkit-transform: rotate(-7deg);
@@ -131,19 +136,20 @@ body {
   #contacto h1 {
     color: white;
     font-family: Lobster;
+    font-size: 60px;
     text-align: center; }
   #contacto img {
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     margin-top: 10px;
-    margin-left: 140px;
+    margin-left: 90px;
     background-repeat: no-repeat;
     border-radius: 50%;
     border: none; }
     #contacto img:hover {
       opacity: 0.5; }
-  #contacto #derecho {
+  #contacto #autor {
     padding: 20px;
     text-align: center;
     font-family: Indie Flower;

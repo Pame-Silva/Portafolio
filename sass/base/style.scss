@@ -1,10 +1,41 @@
+#bg-header {
+	padding: 20px;
+	background-color: #1A1A1A;
+	.logo {
+		img {
+			width: 58px;
+			height: 58px;
+		}
+	}
+	ul {
+		list-style-type: none;
+		display: inline-block;
+		margin-top: 10px;
+		li {
+			display: inline-block;
+			a {
+				font-family: Indie Flower;
+				font-size: 22px;
+				color: white;
+				margin: 10px;
+				padding: 10px;
+				border-radius: 8px;
+				text-decoration: none;
+				&:hover {
+					background-color: #004d40;
+				}
+			}
+		}
+	}
+}
+
 body{
   margin: 0;
 }
-.home{
-	.fondo{
+.home {
+	.fondo {
   		background-size: cover;
-  		h1{
+  		h1 {
   			color: white;
   			margin: 40vh auto;
   			font-size: 200px;
@@ -13,7 +44,7 @@ body{
   			/*background-color: rgba(255,255,255,0.8)*/
 		}
 	}
-	.fondo-fixed{
+	.fondo-fixed {
   		background-attachment: fixed;
   		background-repeat: no-repeat;
   		background-position: center center;
@@ -34,41 +65,12 @@ body{
 	text-align: left;
 }
 
-#bg-header {
-	padding: 20px;
-	background-color: #1A1A1A;
-	.logo {
-		img {
-			width: 55px;
-			height: 55px;
-		}
-	}
-	ul {
-		list-style-type: none;
-		display: inline-block;
-		margin-top: 10px;
-		li {
-			display: inline-block;
-			a {
-				font-family: Indie Flower;
-				color: white;
-				margin: 10px;
-				padding: 10px;
-				border-radius: 8px;
-				text-decoration: none;
-				&:hover {
-					background-color: #004d40;
-				}
-			}
-		}
-	}
-}
-
 #sobre-mi {
 	background-color: #0277bd;
 	h1 {
 		color: white;
 		font-family: Lobster;
+		font-size: 60px;
 	}
 	h3 {
 		color: white;
@@ -125,13 +127,14 @@ body{
 	padding: 50px;
 	h1 {
 		font-family: Lobster;
+		font-size: 60px;
 	}
 	img {
 		display: inline-block;
-		width: 90px;
-		height: 80px;
+		width: 120px;
+		height: 120px;
 		margin-left: 100px;
-		margin-top: 20px;
+		margin-top: 40px;
 		&:hover {
 			-webkit-transform: rotate(50deg);
 	    	-moz-transform: rotate(50deg);
@@ -145,12 +148,14 @@ body{
 	padding: 60px;
 	h1 {
 		font-family: Lobster;
+		font-size: 60px;
 	}
 	img {
 		display: inline-block;
-		width: 255px;
+		width: 300px;
 		height: 200px;
-		margin-left: 100px;
+		margin-left: 70px;
+		padding-right: 40px;
 		margin-top: 20px;
 		&:hover {
 			-webkit-transform: rotate(-7deg);
@@ -165,14 +170,15 @@ body{
 	h1 {
 		color: white;
 		font-family: Lobster;
+		font-size: 60px;
 		text-align: center;
 	}
 	img {
 		display: inline-block;
-		width: 120px;
-		height: 120px;
+		width: 100px;
+		height: 100px;
 		margin-top: 10px;
-		margin-left: 140px;
+		margin-left: 90px;
 		background-repeat: no-repeat;
     	border-radius: 50%;
     	border: none;
@@ -180,7 +186,7 @@ body{
 			opacity: 0.5;
 		}
 	}
-		#derecho{
+		#autor {
 			padding: 20px;
 			text-align: center;
 			font-family: Indie Flower;

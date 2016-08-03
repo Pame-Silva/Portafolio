@@ -4,7 +4,9 @@ body {
 .home .fondo {
   background-size: cover; }
   .home .fondo h1 {
+    color: white;
     margin: 40vh auto;
+    font-size: 200px;
     font-family: Lobster;
     padding: 30px 0;
     /*background-color: rgba(255,255,255,0.8)*/ }
@@ -27,25 +29,24 @@ body {
 #bg-header {
   padding: 20px;
   background-color: #1A1A1A; }
+  #bg-header .logo img {
+    width: 55px;
+    height: 55px; }
   #bg-header ul {
     list-style-type: none;
-    display: inline-block; }
+    display: inline-block;
+    margin-top: 10px; }
     #bg-header ul li {
       display: inline-block; }
       #bg-header ul li a {
-        font-family: Slabo;
+        font-family: Indie Flower;
         color: white;
         margin: 10px;
-        padding: 12px;
+        padding: 10px;
         border-radius: 8px;
         text-decoration: none; }
         #bg-header ul li a:hover {
           background-color: #004d40; }
-
-.home h1 {
-  color: white;
-  font-size: 200px;
-  font-family: Lobster; }
 
 #sobre-mi {
   background-color: #0277bd; }
@@ -54,7 +55,7 @@ body {
     font-family: Lobster; }
   #sobre-mi h3 {
     color: white;
-    font-family: Slabo; }
+    font-family: Indie Flower; }
   #sobre-mi img {
     border-radius: 25%;
     width: 120px;
@@ -92,7 +93,7 @@ body {
       opacity: 0.5; }
   #sobre-mi h2 {
     color: white;
-    font-family: Slabo; }
+    font-family: Indie Flower; }
 
 #conocimientos {
   padding: 50px; }
@@ -129,22 +130,23 @@ body {
   background-color: #1A1A1A; }
   #contacto h1 {
     color: white;
-    font-family: Slabo;
+    font-family: Lobster;
     text-align: center; }
   #contacto img {
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     margin-top: 10px;
-    margin-left: 135px;
+    margin-left: 140px;
     background-repeat: no-repeat;
-    background-position: 50%;
     border-radius: 50%;
-    background-size: 100% auto; }
+    border: none; }
     #contacto img:hover {
       opacity: 0.5; }
   #contacto #derecho {
     padding: 20px;
-    text-align: center; }
+    text-align: center;
+    font-family: Indie Flower;
+    font-size: 20px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -139,10 +139,12 @@ body{
 		height: 120px;
 		margin-left: 100px;
 		margin-top: 40px;
+		transition: 1s;
 		&:hover {
 			-webkit-transform: rotate(50deg);
 	    	-moz-transform: rotate(50deg);
 	    	-o-transform: rotate(50deg);
+
 		}
 	}
 }

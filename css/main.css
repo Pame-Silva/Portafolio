@@ -111,7 +111,8 @@ body {
     width: 120px;
     height: 120px;
     margin-left: 100px;
-    margin-top: 40px; }
+    margin-top: 40px;
+    transition: 1s; }
     #conocimientos img:hover {
       -webkit-transform: rotate(50deg);
       -moz-transform: rotate(50deg);
